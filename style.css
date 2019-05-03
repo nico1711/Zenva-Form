@@ -20,18 +20,33 @@ body{
 
 }
 
+/*-----LEFT COLUMN - BLOCK ONE & TWO----*/
+
 #left-column{
 	width: 50%;
 	padding: 1%
 }
 
+#left-column fieldset p{
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+
+left-column input{
+	width: 90%;
+	padding: 5px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+
+}
+
+/*-----RIGHT COLUMN - BLOCK THREE & FOUR----*/
+
 #right-column{
 	width: 50%;
 	padding: 1%
-}
-
-footer{
-	text-align: center;
 }
 
 #right-column fieldset p{
@@ -40,6 +55,14 @@ footer{
 	justify-content: space-between;
 	flex-wrap: wrap;
 }
+
+/*-----------FOOTER------------*/
+
+footer{
+	text-align: center;
+}
+
+/*-----------RESPONSIVE------------*/
 
 @media(max-width: 900px){
 	#formwrapper{
